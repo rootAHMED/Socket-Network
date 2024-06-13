@@ -1,4 +1,4 @@
-# Tested on a real Ubuntu Server
+# Tested on a real Ubuntu Server 'Socket-Network'
 
 ## ![Mesh-Network-Topology-Type](https://github.com/rootAHMED/Socket-Network/assets/102583986/c1f8f488-0ace-44bc-87be-56f7c3228a21)
 
@@ -14,9 +14,7 @@ sudo ufw enable
 ```
 sudo ufw allow 1234/tcp
 ```
-```
-sudo ufw allow 1234/tcp
-```
+
 ```
 sudo ufw reload
 ```
@@ -25,14 +23,14 @@ sudo ufw reload
 
 The server starts listening.
 
-![image](https://github.com/rootAHMED/Socket-Network/assets/102583986/c7de3957-4d95-4098-aa46-6679f0e412fb)
+##![image](https://github.com/rootAHMED/Socket-Network/assets/102583986/c7de3957-4d95-4098-aa46-6679f0e412fb)
 
 
 ### ` step 3 `
 
 The client sends a Hello message and the server receives it
 
-![Screenshot 2024-06-13 101653](https://github.com/rootAHMED/Socket-Network/assets/102583986/3eccc4b1-fa6c-4ee7-ad40-de73e83ee0a6)
+##![Screenshot 2024-06-13 101653](https://github.com/rootAHMED/Socket-Network/assets/102583986/3eccc4b1-fa6c-4ee7-ad40-de73e83ee0a6)
 
 
 ### `step 4`
@@ -42,7 +40,7 @@ After all this, we will inspect the logs using the Snort tool
 
 ``Snort is a widely-used open-source network intrusion detection and prevention system (IDS/IPS) created by Martin Roesch. It helps detect and respond to suspicious activities on computer networks.``
 
-![image1](https://github.com/rootAHMED/Socket-Network/assets/102583986/d17f2f61-6e92-4dfa-8a03-3fae3d7556cf)
+##![image1](https://github.com/rootAHMED/Socket-Network/assets/102583986/d17f2f61-6e92-4dfa-8a03-3fae3d7556cf)
 
 ### resource:
 https://www.linuxhowtos.org/C_C++/socket.htm
